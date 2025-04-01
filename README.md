@@ -16,18 +16,13 @@ title: 놀라운-코드싸개의-세계
 stateDiagram
   direction LR
 
-  gleam --> js
-  gleam --> beam
-  elixir --> beam
-  erlang --> beam
-  c# --> js:h5
-  ts --> js
   go --> c#:go2cs
   go --> haxe:go2hx
-  go --> js:gopherjs
+  neva --> go
+  go --> go:gen
+  c# --> c#:roslyn
   java --> kotlin
   kotlin --> java
-  f# --> js:fable
 
   haxe --> go:reflaxe_go
   haxe --> js
@@ -40,17 +35,80 @@ stateDiagram
   haxe --> python
   haxe --> lua
 
+  haml --> html
+  markdown --> html
+  slim --> html
+  pug --> html
+
+  php --> html
+  java --> html:jsp
+  vb --> html:asp
+  c# --> html:aspx
+
+  less --> css
+  scss --> css
+  sass --> css
+  stylus --> css
+  postcss --> css
+
+  babel --> js
+  ts --> js
+  coffeescript --> js
+  livescript --> js
+
+  c# --> js:h5
+  f# --> js:fable
+  gleam --> js
+  go --> js:gopherjs
+
   classDef bytecode fill:#8800D6;
-  class jvm,il,beam bytecode
+  class jvm,il,beam,llvm,wasm bytecode
 
   java --> jvm
   scala --> jvm
   groovy --> jvm
+  kotlin --> jvm
 
   c# --> il
   f# --> il
   vb.net --> il
   pwsh --> il
+
+  gleam --> beam
+  elixir --> beam
+  erlang --> beam
+
+  c --> llvm:clang
+  cpp --> llvm:clang
+  objectivec --> llvm:clang
+  swift --> llvm:sil
+  kotlin --> llvm:kotlin/native
+  fortran --> llvm:flang
+  go --> llvm:gollvm
+  rust --> llvm
+  
+  rust --> wasm
+  c# --> wasm:blazor
+  js --> wasm
+  python --> wasm
+  java --> wasm
+  php --> wasm
+  c# --> wasm
+  cpp --> wasm
+  ts --> wasm
+  ruby --> wasm
+  swift --> wasm
+  scala --> wasm:jvm
+  go --> wasm
+  kotlin --> wasm
+  rust --> wasm
+  dart --> wasm
+  assemblyscript --> wasm
+  grain --> wasm
+  motoko --> wasm
+  clojure --> wasm
+  haskell --> wasm
+  zig --> wasm
 
   classDef dataformat fill:#FFD600;
   class protobuf,kaitai,bebop,messagepack dataformat
@@ -118,5 +176,4 @@ stateDiagram
   messagepack --> rust
   messagepack --> scala
   messagepack --> smalltalk
-  messagepack --> kotlin
 ```

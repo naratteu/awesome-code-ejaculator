@@ -73,6 +73,7 @@ stateDiagram
   f# --> il
   vb.net --> il
   pwsh --> il
+  jvm --> il:ikvm
 
   gleam --> beam
   elixir --> beam

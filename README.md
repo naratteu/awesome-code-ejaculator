@@ -81,6 +81,8 @@ stateDiagram
   vb.net --> il
   pwsh --> il
   jvm --> il:ikvm
+  c --> il:praeclarum/Iril
+  llvm --> il:praeclarum/Iril
 
   gleam --> beam
   elixir --> beam

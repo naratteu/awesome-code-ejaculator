@@ -34,6 +34,13 @@ stateDiagram
   haxe --> c#
   haxe --> python
   haxe --> lua
+  haxe --> cpp:yar3333/haxe-refactor
+  haxe --> ts:yar3333/haxe-refactor
+  flash --> haxe:yar3333/haxe-refactor
+  c# --> haxe:yar3333/haxe-refactor
+  ts --> haxe:yar3333/haxe-refactor
+  js --> haxe:yar3333/haxe-refactor
+  php --> haxe:yar3333/haxe-refactor
 
   haml --> html
   markdown --> html

@@ -24,6 +24,10 @@ stateDiagram
   java --> kotlin
   kotlin --> java
 
+  nim --> c
+  nim --> cpp
+  nim --> js
+
   haxe --> go:reflaxe_go
   haxe --> js
   haxe --> flash

@@ -28,6 +28,14 @@ stateDiagram
   nim --> cpp
   nim --> js
 
+  purescript --> js
+  purescript --> c
+  purescript --> cpp
+  purescript --> go
+  purescript --> lua
+  purescript --> erlang
+  # https://github.com/purescript/documentation/blob/master/ecosystem/Alternate-backends.md
+
   haxe --> go:reflaxe_go
   haxe --> js
   haxe --> flash

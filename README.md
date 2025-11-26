@@ -16,6 +16,7 @@ title: 놀라운-코드싸개의-세계
 stateDiagram
   direction LR
 
+  xgo --> go
   go --> c#:go2cs
   go --> haxe:go2hx
   neva --> go
